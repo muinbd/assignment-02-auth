@@ -312,7 +312,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <p>
                 Already have an account?
                 <a
-                    href="login.html"
+                    href="login.php"
                     class="font-semibold text-indigo-600 hover:text-indigo-500 transition-colors">Sign in</a>
             </p>
         </div>
