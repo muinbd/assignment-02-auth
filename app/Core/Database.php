@@ -9,7 +9,7 @@ class Database
         if (self::$instance === null) {
             $config = require __DIR__ . '/../../config/database.php';
 
-            $dsn = "mysql:host={$config['host']};port=3308;dbname={$config['dbname']};charset={$config['charset']}";
+            $dsn = "mysql:host={$config['host']};port=3306;dbname={$config['dbname']};charset={$config['charset']}";
 
 
             try {
